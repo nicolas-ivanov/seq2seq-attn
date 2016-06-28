@@ -343,7 +343,7 @@ def main(arguments):
     parser.add_argument('--targetvalfile', help="Path to target validation data.", required=True)
     parser.add_argument('--batchsize', help="Size of each minibatch.", type=int, default=64)
     parser.add_argument('--seqlength', help="Maximum sequence length. Sequences longer "
-                                               "than this are dropped.", type=int, default=50)
+                                               "than this are dropped.", type=int, default=25)
     parser.add_argument('--outputfile', help="Prefix of the output file names. ", type=str, required=True)
     parser.add_argument('--maxwordlength', help="For the character models, words are "
                                            "(if longer than maxwordlength) or zero-padded "
