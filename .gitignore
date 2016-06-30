@@ -2,7 +2,7 @@
 *.out
 *.t7
 *.dict
-*.txt
+*.xml
 
 # Compiled Lua sources
 luac.out
@@ -133,3 +133,7 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+data/backed_*
+.idea/
+
